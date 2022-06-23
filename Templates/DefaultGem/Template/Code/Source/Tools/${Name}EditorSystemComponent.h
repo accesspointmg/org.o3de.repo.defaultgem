@@ -10,16 +10,13 @@
 
 #pragma once
 
-#include <${Name}SystemComponent.h>
-
-#include <AzToolsFramework/Entity/EditorEntityContextBus.h>
+#include <Clients/${Name}SystemComponent.h>
 
 namespace ${SanitizedCppName}
 {
     /// System component for ${SanitizedCppName} editor
     class ${SanitizedCppName}EditorSystemComponent
         : public ${SanitizedCppName}SystemComponent
-        , private AzToolsFramework::EditorEvents::Bus::Handler
     {
         using BaseSystemComponent = ${SanitizedCppName}SystemComponent;
     public:
