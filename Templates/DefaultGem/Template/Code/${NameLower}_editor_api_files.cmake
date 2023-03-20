@@ -6,6 +6,6 @@
 #
 # {END_LICENSE}
 
+
 set(FILES
-    Source/Clients/${Name}Module.cpp
 )

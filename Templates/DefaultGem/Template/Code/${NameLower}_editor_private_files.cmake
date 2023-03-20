@@ -7,5 +7,6 @@
 # {END_LICENSE}
 
 set(FILES
-    Source/Clients/${Name}Module.cpp
+    Source/Tools/${Name}EditorSystemComponent.cpp
+    Source/Tools/${Name}EditorSystemComponent.h
 )

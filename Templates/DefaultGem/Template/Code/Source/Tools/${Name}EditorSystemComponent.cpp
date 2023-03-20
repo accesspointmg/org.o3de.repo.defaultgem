@@ -9,7 +9,7 @@
  // {END_LICENSE}
 
 #include <AzCore/Serialization/SerializeContext.h>
-#include <${Name}EditorSystemComponent.h>
+#include "${Name}EditorSystemComponent.h"
 
 namespace ${SanitizedCppName}
 {
