@@ -6,10 +6,13 @@
         "display_name": "DefaultGem Android Overlay",
         "description": "Platform overlay (android) for org.o3de.template.defaultgem",
         "version": "0.0.0",
-        "type": "overlay",
-        "target": "org.o3de.template.defaultgem",
-        "platform": "android"
+        "type": "overlay"
     },
+    "extends": "org.o3de.template.defaultgem>=0.0.0",
+    "precedence": 10,
+    "platforms": [
+        "android"
+    ],
     "origin": {
         "name": "The Linux Foundation",
         "url": "https://www.linuxfoundation.org"
